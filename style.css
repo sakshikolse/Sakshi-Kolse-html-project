@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: black; /* Black background color */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    text-align: center; /* Aligns text to the left */
+} 
+
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.background {
+    text-align: center; /* Centers the image horizontally */
+    margin-top: 0px; /* Adds some space between the header and the image */
+}
+
+.background img {
+    width: 100%; /* Makes the image 50% of the container's width */
+    height: auto; /* Maintains the aspect ratio */
+    display: inline-block; /* Centers the image within the text-align center div */
+}
+.description {
+    background-color: grey; /* Grey background color */
+    margin-top: 0px;
+    padding: 25px;
+    text-align: center;
+    /* Adds space between the image and the description */
+}
+.content-box {
+    padding: 20px;
+    
+    background-color: #f0f0f0; /* Grey background color */
+}
+
+.content-box h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px; /* Adds space between the heading and the images */
+}
+
+.image-item {
+    width: 30%;
+    text-align: center;
+    background-color: #ffffff; /* White background color for each image item */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to each image item */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.learn-more-btn:hover {
+    background-color: #555;
+} 
