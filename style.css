@@ -9,10 +9,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: left;
-    background-color: black; /* Black background color */
-    color: white; /* White text color */
+    background-color: black;
+    color: white; 
     padding: 10px 20px;
-    text-align: center; /* Aligns text to the left */
+    text-align: center; 
 } 
 
 
@@ -46,26 +46,26 @@ nav ul li a:hover {
 }
 
 .background {
-    text-align: center; /* Centers the image horizontally */
-    margin-top: 0px; /* Adds some space between the header and the image */
+    text-align: center; 
+    margin-top: 0px; 
 }
 
 .background img {
-    width: 100%; /* Makes the image 50% of the container's width */
-    height: auto; /* Maintains the aspect ratio */
-    display: inline-block; /* Centers the image within the text-align center div */
+    width: 100%; 
+    height: auto; 
+    display: inline-block; 
 }
 .description {
-    background-color: grey; /* Grey background color */
+    background-color: grey; 
     margin-top: 0px;
     padding: 25px;
     text-align: center;
-    /* Adds space between the image and the description */
+    
 }
-.content-box {
+.content-box
     padding: 20px;
     
-    background-color: #f0f0f0; /* Grey background color */
+    background-color: #f0f0f0;
 }
 
 .content-box h2 {
@@ -79,15 +79,15 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 20px; /* Adds space between the heading and the images */
+    margin-top: 20px; 
 }
 
 .image-item {
     width: 30%;
     text-align: center;
-    background-color: #ffffff; /* White background color for each image item */
+    background-color: #ffffff; 
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to each image item */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .image-item img {
